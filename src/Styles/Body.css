@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.menu-image {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-image:hover {
+  transform: scale(1.1);
+}
+
+.order-box {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.order-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.order-image {
+  border-radius: 50%;
+}
+
+.order-quantity {
+  margin-top: 10px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+
+.order-total {
+  margin-top: 20px;
+  text-align: center;
+}
